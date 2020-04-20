@@ -1,0 +1,67 @@
+---
+#-------------------------------
+# General Site Settings
+
+title: Probe Space
+description: Probe 的个人博客 # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://probe.earth" # the base hostname & protocol for your site, e.g. http://example.com
+
+#-------------------------------
+# About Section
+author-name: Probe
+author-avatar: probe-icon.jpg
+
+#-------------------------------
+# Contact links
+youtube: https://www.youtube.com/channel/UCb-z8x0TD6cPtGkFLlUi4Sw # Add your Youtube handle
+twitter: https://twitter.com/__Probe__ # Add your Facebook handle
+soundcloud: https://soundcloud.com/protossprobe # Add your Soundcloud handle
+spotify: https://open.spotify.com/artist/55avQ47LWG1LUaF5AfGdlY # Add your Spotify handle
+contact: mailto:info@probe.earth # Add your Spotify handle
+# pinterest: https://www.pinterest.com/ # Add your Facebook handle
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: Probe # Add your shortname for Disqus Comment. For example mr-brown
+
+#-------------------------------
+# Instagram Feed
+# instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+#-------------------------------
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+#-------------------------------
+# Build settings
+markdown: kramdown
+permalink: ":title/"
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 7
+paginate_path: "/page/:num"
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
+#-------------------------------
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - old
