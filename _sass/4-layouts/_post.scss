@@ -32,7 +32,7 @@
 }
 
 .post-head, .post-content {
-  background: rgba($blue-darken, .95);
+  background: $float-color;
 }
 
 .post-content {
@@ -73,9 +73,11 @@
   .post-title {
     font-size: 28px;
     text-align: center;
-    font-weight: normal;
+    font-weight: bold;
     line-height: 28px;
     margin-bottom: 5px;
+    color: $secondary-color;
+
   }
   .post-date {
     span {
@@ -161,9 +163,9 @@
 .prev, .next {
   flex-basis: 100%;
   padding: 15px;
-  background: #26272B;
+  background: $float-color;
   &:hover {
-    background: darken(#26272B, 3%);
+    background: darken($float-color, 3%);
     .post-nav-title {
       color: $primary-color;
       transition: $global-transition;
@@ -191,7 +193,6 @@
 // COMMENTS SECTION
 .comments {
   padding: 0 15px;
-  background: $blue-darken;
 }
 
 // MEDIA
@@ -226,6 +227,6 @@
     text-align: right;
   }
   .comments {
-    padding: 0 40px;
+    padding: 40px;
   }
 }

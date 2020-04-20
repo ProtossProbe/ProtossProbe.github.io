@@ -2,17 +2,20 @@
 .sidebar {
   margin-bottom: 30px;
 }
+
 .widget {
   padding: 40px 15px;
   margin-bottom: 30px;
-  background: rgba($blue-darken, .95);
+  background: $float-color;
   box-shadow: 0 9px 18px 0 rgba(0, 0, 0, 0.25);
+
   .widget-title {
     position: relative;
     padding-bottom: 15px;
     margin-bottom: 20px;
     font-size: 21px;
     text-align: center;
+
     &:after {
       content: "";
       position: absolute;
@@ -33,13 +36,15 @@
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 15px;
-  &:hover{
+
+  &:hover {
     .recent-image {
       &::before {
         background: rgba(0, 0, 0, .15);
         transition: all .5s ease;
       }
     }
+
     .recent-content {
       .recent-title {
         a {
@@ -48,19 +53,23 @@
       }
     }
   }
+
   &:last-child {
     margin-bottom: 0;
   }
+
   .recent-header {
     width: 100%;
     margin-bottom: 10px;
     background: $black;
+
     &.reveal-in {
       .recent-image {
         opacity: 1;
       }
     }
   }
+
   .recent-image {
     position: relative;
     display: block;
@@ -73,11 +82,13 @@
     box-shadow: 0 9px 18px 0 rgba(0, 0, 0, 0.25);
     opacity: 0;
     transition: all 1s cubic-bezier(0.6, 0.3, 0, 1);
+
     &:after {
       content: "";
       display: table;
       padding-top: 20%;
     }
+
     &:before {
       content: "";
       position: absolute;
@@ -89,14 +100,17 @@
 
   .recent-content {
     margin: 5px 0;
+
     .recent-title {
       margin-bottom: 0;
       font-weight: 700;
+
       a {
         font-size: 18px;
         color: $text;
       }
     }
+
     .recent-date {
       font-size: 12px;
       color: $gray-blue;
@@ -107,10 +121,12 @@
 // Social Widget
 .social-profiles {
   text-align: center;
+
   .social-profiles-item {
     display: inline-block;
     margin: 3px;
   }
+
   .social-profiles-link {
     display: inline-block;
     line-height: 16px;
@@ -118,10 +134,12 @@
     border: 1px solid $border-color;
     border-radius: $global-radius;
     color: $border-color;
+
     &:hover {
       border-color: $primary-color;
       color: $primary-color;
     }
+
     i {
       font-size: 18px;
     }
@@ -132,17 +150,21 @@
 .widget-instagram {
   .instagram-box {
     text-align: center;
+
     .instagram-grid {
       margin-bottom: 30px;
     }
+
     .instagram-item {
       width: 33.333%;
       padding: 3px;
       float: left;
       overflow: hidden;
+
       a {
         position: relative;
         display: block;
+
         &:after {
           content: "";
           position: absolute;
@@ -153,6 +175,7 @@
           background: rgba($blue-darken, .3);
           transition: $global-transition;
         }
+
         &:hover {
           &:after {
             background: transparent;
@@ -160,9 +183,11 @@
         }
       }
     }
+
     .instagram-prof {
       font-size: 14px;
       color: #3E4250;
+
       &:hover {
         text-decoration: underline;
       }
@@ -173,19 +198,23 @@
 // Newsletter Widget
 .widget-newsletter {
   text-align: center;
+
   .newsletter-subtitle {
     margin-bottom: 20px;
     font-size: 18px;
   }
+
   .newsletter-text {
     max-width: 170px;
     margin: 0 auto 30px;
     font-size: 14px;
     line-height: 19px;
   }
+
   .newsletter-group-top {
     position: relative;
   }
+
   .email-icon {
     position: absolute;
     top: 50%;
@@ -194,6 +223,7 @@
     transform: translateY(-50%);
     color: rgba(44, 47, 54, 0.4);
   }
+
   .newsletter-email,
   .newsletter-button {
     width: 100%;
@@ -201,17 +231,20 @@
     border: none;
     outline: none;
   }
+
   .newsletter-email {
     padding: 15px 15px 15px 33px;
   }
+
   .newsletter-button {
     margin-top: 20px;
     font-size: 14px;
     font-weight: 700;
     cursor: pointer;
     color: $white;
-    background: $blue-black;
+    background: $gray-blue;
     transition: $global-transition;
+
     &:hover {
       background: $primary-color;
     }
@@ -223,16 +256,19 @@
   .tag-item {
     display: inline-block;
     margin: 3px;
+
     &:last-child {
       margin-right: 0;
     }
+
     .tag {
       display: inline-block;
       padding: 5px 15px;
       font-size: 12px;
       border-radius: $global-radius;
       color: $text;
-      background: $blue-black;
+      background: $gray-blue;
+
       &:hover {
         color: $white;
         background: $primary-color;
@@ -253,9 +289,11 @@
     .recent-header {
       margin-bottom: 5px;
     }
+
     .recent-image {
       height: 120px;
     }
+
     .recent-content {
       .recent-title {
         a {
@@ -269,10 +307,12 @@
 @media only screen and (min-width: 992px) {
   .recent-posts {
     flex-wrap: nowrap;
+
     .recent-header {
       width: auto;
       margin-right: 15px;
     }
+
     .recent-image {
       width: 110px;
     }
