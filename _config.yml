@@ -31,7 +31,7 @@ disqus-identifier: Probe # Add your shortname for Disqus Comment. For example mr
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+google-analytics: UA-56926395-2 # Add your identifier. For example UA-99631805-1.
 
 #-------------------------------
 # Newsletter
