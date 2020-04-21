@@ -13,6 +13,7 @@
   margin-bottom: 10px;
   border-bottom: 1px solid $border-color;
   .logo-text {
+    font-family: 'Source Han Serif SC', 'Source Han Serif CN', 'Source Han Serif', 'source-han-serif-sc';
     font-size: 16px;
     font-weight: 700;
     line-height: 16px;
@@ -42,6 +43,7 @@
 }
 
 .footer-bottom {
+  font-weight: 200;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -69,7 +71,6 @@
         }
         a {
           font-size: 13px;
-          font-weight: bold;
           color: $gray-blue;
           transition: $global-transition;
           &:hover {

@@ -2,7 +2,7 @@
 layout: post
 title:  "probe.earth 再次上线啦！"
 date:   2020-04-20 05:25:00 -0700
-image:  post1/cover1.png
+image:  probe-main.jpg
 tags:   [随记]
 ---
 历经了或许有小半年的停摆，Probe 的个人博客网站——[probe.earth](https://probe.earth) 终于再次搭建成功了！

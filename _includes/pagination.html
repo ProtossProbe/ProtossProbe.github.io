@@ -5,18 +5,18 @@
         {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
         <li class="previous-posts">
           <a class="previous-link" href="{{ site.baseurl }}/">
-            <i class="ion ion-ios-arrow-back"></i> Previous posts</a>
+            <i class="ion ion-ios-arrow-back"></i>上一篇文章</a>
         </li>
         {% else %}
         <li class="newer-posts">
           <a class="newer-link" href="{{ site.baseurl }}/page/{{ paginator.previous_page }}/">
-            <i class="ion ion-ios-arrow-back"></i> Previous posts</a>
+            <i class="ion ion-ios-arrow-back"></i>更新的文章</a>
         </li>
         {% endif %} {% endif %}
 
         {% if paginator.next_page %}
         <li class="older-posts">
-          <a class="older-link" href="{{ site.baseurl }}/page/{{ paginator.next_page }}/">Older posts
+          <a class="older-link" href="{{ site.baseurl }}/page/{{ paginator.next_page }}/">更晚的文章
             <i class="ion ion-ios-arrow-forward"></i>
           </a>
         </li>

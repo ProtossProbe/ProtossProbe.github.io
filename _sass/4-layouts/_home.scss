@@ -17,6 +17,7 @@
 
     .logo-title {
         .logo-text {
+            font-family: 'Source Han Serif SC', 'Source Han Serif CN', 'Source Han Serif', 'source-han-serif-sc';
             font-size: 16px;
             font-weight: 700;
             line-height: 16px;
@@ -61,6 +62,7 @@
     overflow-y: auto;
 
     .menu-item {
+        font-family: 'Source Han Serif SC', 'Source Han Serif CN', 'Source Han Serif', 'source-han-serif-sc';
         text-align: center;
     }
 
@@ -230,6 +232,7 @@
 
         .article-tag {
             .tag {
+                font-family: $sans-font-family;
                 font-size: 14px;
             }
         }
@@ -254,6 +257,7 @@
         }
 
         .article-excerpt {
+            font-weight: 200;
             max-width: 450px;
             margin-bottom: 30px;
             font-size: 14px;
@@ -362,6 +366,7 @@
 
             .article-tag {
                 .tag {
+                    font-family: $sans-font-family;
                     display: inline-block;
                     padding: 2px 5px;
                     margin-right: 5px;
@@ -396,6 +401,7 @@
         }
 
         .article-excerpt {
+            font-weight: 200;
             margin-bottom: 0;
             font-size: 15px;
             line-height: 25px;
@@ -431,6 +437,7 @@
             }
 
             .article-excerpt {
+                font-weight: 200;
                 margin-bottom: 50px;
             }
         }
@@ -478,6 +485,7 @@
             margin: 0;
 
             .menu-item {
+                font-family: $sans-font-family;
                 display: inline-block;
                 margin: 0 15px 0 0;
 
