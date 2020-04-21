@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: board
 title: 留言板
-image: post1/cover1.png
 permalink: /board/
 ---
 
