@@ -1,5 +1,5 @@
 // Body
-$base-font-size: 17px;
+$base-font-size: 17.5px;
 $base-font-style: normal;
 $base-font-variant: normal;
 $base-font-weight: 200;
@@ -141,7 +141,7 @@ img {
         display: block;
         margin-top: 10px;
         font-weight: 200;
-        font-size: 15px;
+        font-size: 15.5px;
         color: $gray-blue-text;
     }
 }
@@ -236,4 +236,8 @@ table td {
 
 table tr:hover {
     background-color: $white;
+}
+
+.post-message p {
+    font-family: $sans-font-family;
 }
