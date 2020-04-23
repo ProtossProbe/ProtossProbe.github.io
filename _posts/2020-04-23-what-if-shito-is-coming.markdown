@@ -25,7 +25,7 @@ tags:   [天文, 科普, What If]
 {: refdef}
 <br />
 
-现在，为了拯救人类，你必须在最短的时内设计出出一套可行的地球防御方案，然后把它提供给刚刚成立「行星安全理事会」。人类这次能否逃过一劫，就完全掌握在你的手中了！
+现在，为了拯救人类，你必须在最短的时内设计出一套可行的地球防御方案，然后把它提供给刚刚成立「行星安全理事会」。人类这次能否逃过一劫，就完全掌握在你的手中了！
 
 你收到了助手传来的小行星数据。喝！这颗名叫使徒的小行星直径约 5 公里，你回忆起来小行星的密度大约是 $$2000\ kg/m^3$$，那么它的质量就应该是：
 
@@ -75,7 +75,11 @@ $$
 你回想起了开普勒第三定律， $$\frac{2\pi}{P} = n = \sqrt{ {GM}\over{a^3}}$$ ，那么：
 
 $$
-n_* = \sqrt{ {GM}\over{a_*^3}} = \sqrt{ {GM}\over{(a+\Delta a)^3}} \approx \sqrt{ {GM}\over{a^3}} - \frac{3}{2} \sqrt{ {GM}\over{a^3}} \frac{\Delta a}{a}
+\begin{align*}
+n_* &= \sqrt{ {GM}\over{a_*^3}} \\
+    &= \sqrt{ {GM}\over{(a+\Delta a)^3}} \\
+    &\approx \sqrt{ {GM}\over{a^3}} - \frac{3}{2} \sqrt{ {GM}\over{a^3}} \frac{\Delta a}{a}
+\end{align*}
 $$
 
 比较这个式子和关于 $$\Delta n$$ 的式子，你发现：
@@ -226,7 +230,11 @@ $$
 要给予它 $$0.108\ m/s$$ 的速度增量，人类需要的能量是：
 
 $$
-\Delta E = \frac{1}{2}Mv_c^2 - \frac{1}{2}M(v_c+\Delta v)^2 \approx  Mv_c \Delta v = 4.24\times10^{17} \ J
+\begin{align*}
+\Delta E &= \frac{1}{2}Mv_c^2 - \frac{1}{2}M(v_c+\Delta v)^2 \\
+         & \approx  Mv_c \Delta v \\
+         & = 4.24\times10^{17} \ J
+\end{align*}
 $$
 
 换算成 TNT 当量的话，这大约是 1 亿吨 TNT 爆炸的能量。你难以想象 1 亿吨 TNT 堆在一起的画面，但是却查到了人类史上的最强武器：[沙皇炸弹](https://zh.wikipedia.org/zh/%E6%B2%99%E7%9A%87%E7%82%B8%E5%BD%88)的爆炸当量是 5 千万吨TNT！！
