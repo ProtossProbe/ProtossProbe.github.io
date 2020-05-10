@@ -26,7 +26,7 @@
   {% endif %}
 
   <div class="widget widget-social">
-    <h3 class="widget-title">社交账号</h3>
+    <h3 class="widget-title">联系与订阅</h3>
     <ul class="social-profiles list-reset">
       {% if site.facebook %}
       <li class="social-profiles-item">
@@ -69,6 +69,8 @@
         <a href="{{ site.contact }}" class="social-profiles-link"><i class="ion ion-md-send"></i></a>
       </li>
       {% else %} {% endif %}
+
+        <a href="{{ site.baseurl }}/feed.xml" class="social-profiles-link"><i class="ion ion-logo-rss"></i></a>
     </ul>
   </div>
 

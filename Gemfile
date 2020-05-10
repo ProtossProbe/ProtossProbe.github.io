@@ -4,6 +4,7 @@ gem "bundler"
 gem "jekyll", ">= 3.8.4"
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
+gem "jekyll-feed"
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
