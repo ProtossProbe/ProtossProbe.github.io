@@ -9,7 +9,7 @@ layout: default
 		<div class="col col-12">
 			<article class="article-first">
 				<div class="article-image-first"
-					style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}});opacity: 0.4">
+					style="background-image: url({{"" | prepend: site.baseurl | append : post.image}});opacity: 0.4">
 				</div>
 				<div class="article-content-first" style="position:absolute; top:30%">
 					<div class="article-tag">
@@ -45,7 +45,7 @@ layout: default
 					<div class="article-box">
 						<div class="article-head">
 							<a href="{{ post.url | prepend: site.baseurl }}" class="article-image"
-								style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
+								style="background-image: url({{"" | prepend: site.baseurl | append : post.image}})">
 								<div class="image-overlay">
 									<span class="image-overlay-text">{{post.title | slice: 0}}</span>
 								</div>

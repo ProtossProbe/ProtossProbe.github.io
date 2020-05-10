@@ -2,7 +2,7 @@
 layout: post
 title:  "「使徒」袭来！人类最后的行星防御计划！"
 date:   2020-04-23 00:00:00 -0700
-image:  post-shito-is-coming/cover.jpg
+image:  /img/post-shito-is-coming/cover.jpg
 tags:   [天文, 科普, What If]
 ---
 “坏了坏了，[卡特林那巡天系统](https://zh.wikipedia.org/wiki/%E5%8D%A1%E7%89%B9%E6%9E%97%E9%82%A3%E5%B7%A1%E5%A4%A9%E7%B3%BB%E7%B5%B1)刚刚发现了一颗五公里大小的小行星，NASA JPL 用他们的数据算了一下这颗小行星的轨道，它将在一年后撞上地球！”
