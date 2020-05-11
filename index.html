@@ -24,7 +24,7 @@ layout: default
 					<p class="article-excerpt">
 						{% if post.description %}{{ post.description | strip_html | truncate: 163 }}{% else %}{{ post.content | strip_html | truncate: 163 }}{% endif %}
 					</p>
-					<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">阅读</a>
+					<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">é˜…è¯»</a>
 				</div>
 
 			</article> <!-- /.article-first -->
@@ -47,7 +47,7 @@ layout: default
 							<a href="{{ post.url | prepend: site.baseurl }}" class="article-image"
 								style="background-image: url({{"" | prepend: site.baseurl | append : post.image}})">
 								<div class="image-overlay">
-									<span class="image-overlay-text">{{post.title | slice: 0}}</span>
+									<span class="image-overlay-text">{{ post.tags[0] }}</span>
 								</div>
 							</a>
 						</div>
