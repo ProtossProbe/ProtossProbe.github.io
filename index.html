@@ -24,7 +24,7 @@ layout: default
 					<p class="article-excerpt">
 						{% if post.description %}{{ post.description | strip_html | truncate: 163 }}{% else %}{{ post.content | strip_html | truncate: 163 }}{% endif %}
 					</p>
-					<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">é˜…è¯»</a>
+					<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">阅读</a>
 				</div>
 
 			</article> <!-- /.article-first -->
