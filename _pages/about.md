@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 关于
-image: /img/probe-main.jpg
+image: /img/probe-and-moy.jpg
 permalink: /about/
 ---
 

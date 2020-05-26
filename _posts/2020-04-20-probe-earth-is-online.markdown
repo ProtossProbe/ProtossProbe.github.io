@@ -12,7 +12,7 @@ tags:   [随记]
 再次搭建个人网站的动力是因为最近正在读爱德华·斯诺登（Edward Snowdon）的个人传记——[《永久记录（Permenant Record）》](https://book.douban.com/subject/34841756/)。
 
 {:refdef: style="text-align: center;"}
-![Permanent Record]({{site.baseurl}}/img/post1/snowden.jpg)
+![Permanent Record]({{site.baseurl}}/img/post-probe-earth/snowden.jpg)
 {: refdef}
 
 斯诺登在书中回忆了自己是如何在上世纪九十年代初次接触到方兴未艾的互联网。那个时候的互联网并不是像现在这里集中化以及实名化，人们可以在匿名的世界里无忧无虑地做自己想做的事情，就算自己曾经发表过如何过激的言论，只要换上另一张皮，就可以重新开始另一段匿名的旅程。不过，现在由社交网络巨头控制的互联网已经俨然不是当年的光景，只要你使用任何的社交网络服务，不管是 Twitter、Facebook 还是微博、微信，你都是在无形中把自己的个人数据交由这些巨头进行管理。在互联网进入集中时代之后，没有人可以真正抹消自己的存在，所有互联网用户的一言一行都构成了这个时代的“永久记录”。
