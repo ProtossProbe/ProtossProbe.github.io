@@ -35,7 +35,7 @@ FGO 最近出了一个新的角色，名字叫「旅行者」。这是一个融�
 
 {:refdef: style="text-align: center;"}
 ![「旅行者号」探测器上长长的金属桁架上固定着磁力计]({{site.baseurl}}/img/post-voyager/voyager_magnetometer.jpg)
-*「旅行者号」探测器上长长的金属桁架上固定着磁力计 | 来源：NASA)*
+*「旅行者号」探测器上长长的金属桁架上固定着磁力计 | 来源：NASA*
 {: refdef}
 
 再看少年身上所穿着的白色服饰，是不是很像探测器上的那个雪白的“锅盖”？这是「旅行者号」所携带的高增益天线。
@@ -131,7 +131,7 @@ Probe 想不到比这还要浪漫的事情了。
 
 {:refdef: style="text-align: center;"}
 ![《小王子》中的玫瑰]({{site.baseurl}}/img/post-voyager/rose.jpg)
-*《小王子》中的玫瑰 | 来源：小王子电影)*
+*《小王子》中的玫瑰 | 来源：小王子电影*
 {: refdef}
 
 ## 红色飞机 F-ANRY
@@ -140,21 +140,21 @@ Probe 想不到比这还要浪漫的事情了。
 
 {:refdef: style="text-align: center;"}
 ![「旅行者」手中的红色飞机 ]({{site.baseurl}}/img/post-voyager/plane_1.jpg)
-*「旅行者」手中的红色飞机 | 来源：[@NOCO](https://twitter.com/NOCO9999))*
+*「旅行者」手中的红色飞机 | 来源：[@NOCO](https://twitter.com/NOCO9999)*
 {: refdef}
 
 「旅行者」少年手中拿着的这架红色飞机就象征着坠毁的那架型号为 [Caudron C-630 Simoun](https://zh.wikipedia.org/wiki/%E5%B0%8F%E7%8E%8B%E5%AD%90#cite_note-11) 的飞机，因为它的机翼上就印着这架飞机在法国的注册号——F-ANRY：
 
 {:refdef: style="text-align: center;"}
 ![印有圣埃克苏佩里头像和《小王子》插图的 50 法郎纪念币 ]({{site.baseurl}}/img/post-voyager/plane_3.jpg)
-*印有圣埃克苏佩里头像和《小王子》插图的 50 法郎纪念币 | 来源：Wikipedia - 小王子)*
+*印有圣埃克苏佩里头像和《小王子》插图的 50 法郎纪念币 | 来源：Wikipedia - 小王子*
 {: refdef}
 
 这架飞机也出现在了概念礼装图中：
 
 {:refdef: style="text-align: center;"}
 ![「旅行者」概念礼装图 ]({{site.baseurl}}/img/post-voyager/plane_2.png)
-*「旅行者」概念礼装图| 来源：[@Rella](https://twitter.com/Rellakinoko))*
+*「旅行者」概念礼装图| 来源：[@Rella](https://twitter.com/Rellakinoko)*
 {: refdef}
 
 最后，值得一提的是，天文学家还真把一颗小行星命名成了小王子所在的 B-612 星：
@@ -179,7 +179,7 @@ Probe 想不到比这还要浪漫的事情了。
 
 {:refdef: style="text-align: center;"}
 ![Probe 的瞳孔中有光圈 ]({{site.baseurl}}/img/post-voyager/probe_avatar_post_raw.jpg)
-*Probe 的瞳孔中有光圈 | 来源：[@失落流星Astral](https://weibo.com/u/6124552807))*
+*Probe 的瞳孔中有光圈 | 来源：[@失落流星Astral](https://weibo.com/u/6124552807)*
 {: refdef}
 
 那么这个光圈就是任何人都不会弄错的 Probe 的鉴别标记！请大家务必牢记~（根本没人会记得的好吧！）
