@@ -3,7 +3,7 @@ layout: post
 title:  "神奇行星在哪里？（上）"
 date:   2019-05-15 00:00:00 +0800
 image:  /img/post-fantastic-planet-1/cover.jpg
-tags:   [天文, 科普]
+tags:   [天文]
 ---
 {:refdef: style="text-align: center;"}
 ## Fantastic Planet And Where To Find It?

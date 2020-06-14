@@ -3,7 +3,7 @@ layout: post
 title:  "庞加莱回归"
 date:   2019-05-04 00:00:00 +0800
 image:  /img/post-poincare-recurrence/chaos.jpg
-tags:   [短篇, 科幻]
+tags:   [科幻]
 ---
 
 ## 1

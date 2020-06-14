@@ -3,7 +3,7 @@ layout: post
 title:  "聊聊「旅行者号」与「小王子」"
 date:   2020-05-26 02:00:00 -0700
 image:  /img/post-voyager/cover.png
-tags:   [随记,天文]
+tags:   [天文]
 ---
 
 FGO 最近出了一个新的角色，名字叫「旅行者」。这是一个融合了美国[「旅行者号」太空探测器](https://zh.wikipedia.org/zh/%E6%97%85%E8%A1%8C%E8%80%851%E5%8F%B7)，以及法国作家圣埃克苏佩里所创造的[「小王子」](https://zh.wikipedia.org/zh-hans/%E5%B0%8F%E7%8E%8B%E5%AD%90)形象的金发蓝瞳少年。

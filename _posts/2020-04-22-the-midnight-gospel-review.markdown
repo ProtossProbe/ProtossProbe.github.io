@@ -3,7 +3,7 @@ layout: post
 title:  "「午夜福音」主观测评——在嗑药中听播客"
 date:   2020-04-20 05:25:00 -0700
 image:  /img/post-the-midnight-gospel/cover.jpg
-tags:   [动画, 测评]
+tags:   [动画]
 ---
 刚一口气看完了网飞的新剧——[The Midnight Gospel（午夜福音）](https://www.netflix.com/title/80987903)。
 
