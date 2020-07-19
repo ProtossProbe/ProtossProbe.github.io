@@ -84,7 +84,7 @@ $$
 *鸟神星的旋转 | Credit: [Wikipedia - Haumea](https://en.wikipedia.org/wiki/Haumea)*
 {: refdef}
 
-在随后的 1842 年和 1846 年，Meyer 和刘维尔证明了在轴对称椭球的偏心率超过 $$0.812670$$ 后，相同角动量的三轴椭球具有更低的总能量。也就是说，如果天体的内部有能量耗散机制的话，那么**大偏心率的轴对称麦克劳林椭球将会逐渐演化成一个非对称的雅克比椭球**，很神奇对吧！这种数学现象后来被称庞加莱作为“分岔（Bifurcation）”。
+在随后的 1842 年和 1846 年，Meyer 和刘维尔证明了在轴对称椭球的偏心率超过 $$0.812670$$ 后，相同角动量的三轴椭球具有更低的总能量。也就是说，如果天体的内部有能量耗散机制的话，那么**大偏心率的轴对称麦克劳林椭球将会逐渐演化成一个非对称的雅克比椭球**，很神奇对吧！这种数学现象后来被庞加莱称为“分岔（Bifurcation）”。
 
 {:refdef: style="text-align: center;"}
 ![Screenshot-1]({{site.baseurl}}/img/post-rotating-planet/screenshot-2.png)
