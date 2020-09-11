@@ -9,7 +9,7 @@ permalink: /ask/
 {: refdef}
 
 {:refdef: style="text-align: center;"}
-### [ask.probe.earth](https://ask.probe.earth)
+### [ask.probe.earth](http://ask.probe.earth)
 {: refdef}
 
 {:refdef: style="text-align: center;"}
