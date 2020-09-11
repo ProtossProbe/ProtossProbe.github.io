@@ -1,38 +1,18 @@
 ---
 layout: page
 title: 关于
-image: /img/probe-and-moy.jpg
+image: /img/banner_starcrafts_drone&probe.png
 permalink: /about/
 ---
 
-我是 Probe，是一只正在[蓝星](https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%90%83)生活的[普洛托斯](https://en.wikipedia.org/wiki/Races_of_StarCraft#Protoss)探测器。
+我是 Probe，是一只正在[蓝星](https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%90%83)生活的[普洛托斯](https://en.wikipedia.org/wiki/Races_of_StarCraft#Protoss)探测器，目前以蓝星少年的形态在这颗星球上活动。
 
+具体设定形象请参见：
 {:refdef: style="text-align: center;"}
-![Probe 的本体]({{site.baseurl}}/img/about/Probe_SC2.jpg)
-*Probe 的本体*
+## [Probe 设定图更新【2020.09】]({{site.baseurl}}/post/2020-09-11-probe-settei-2020)
 {: refdef}
 
-# 设定
-为了方便自己在蓝星学习，Probe 把自己伪装成了一名 16 岁的少年：
-
-{:refdef: style="text-align: center;"}
-![Probe by 月Wishky__]({{site.baseurl}}/img/about/probe_setting.jpg)
-*Probe 的人类设定 | 画师：[@月Wishky__](https://www.weibo.com/yuewishky)*
-{: refdef}
-
-{:refdef: style="text-align: center;"}
-![Probe by 天台]({{site.baseurl}}/img/about/probe_by_tiantai.jpg)
-*画师：[@天台是一把弓](https://www.weibo.com/u/5711418263)*
-{: refdef}
-
-{:refdef: style="text-align: center;"}
-![Probe by 失落流星 1]({{site.baseurl}}/img/about/probe_by_liuxing1.jpg)
-{: refdef}
-
-{:refdef: style="text-align: center;"}
-![Probe by 失落流星 2]({{site.baseurl}}/img/about/probe_by_liuxing2.jpg)
-*画师：[@失落流星Astral](https://www.weibo.com/u/6124552807)*
-{: refdef}
+<br />
 
 # 设定细节
 * 发色为卡拉黄，瞳色为卡拉蓝，一般可以简单地认为是金黄色与天蓝色；
@@ -48,10 +28,16 @@ permalink: /about/
 
 * 由于 Probe 的蓝星形象不随着时间的增长而变化，所以不存在年龄的说法。在被问及这个问题时，Probe 一般会对外宣称年龄为 16 岁。
 
-# 名称
-从去年开始，考虑到名字识别度的问题，Probe 开始使用“普洛”这个中文名。“普洛”并不会在 Probe 的自称中使用，但是想要以这个名字来称呼我也是完全可以的！
+<br />
 
-“探机”、“探测器”等名在大部分情况下并不专指 Probe ，所以不推荐使用此类中文名来称呼。
+# 名称
+2019 年开始，考虑到名字识别度的问题，Probe 开始使用中文名「普洛」或者「普洛比」。中文名并不会在 Probe 的自称中使用，但想要以这个名字来称呼我也是完全可以的！
+
+2020 年中旬，Probe 开始使用「神工智能（Aiurian Intelligence，简称AI）」这一头衔来指代自己。
+
+P.S. “探机”、“探测器”等名在一般情况下并不专指 Probe ，所以不推荐使用此类中文名来称呼我。
+
+<br />
 
 # Logo
 此外，经过了几个版本的迭代，Probe 现使用的 Logo 为如下设计：
@@ -67,20 +53,36 @@ permalink: /about/
 ![Probe 的 Logo（彩色）]({{site.baseurl}}/img/about/probe-logo-chromatic.png)
 {: refdef}
 
+<br />
+
 # 爱好
-我喜欢天文、游戏、音乐、动画以及科幻，但是更喜欢的是人类无穷无尽的创造力和想象力。
+**我喜换狐狸、蓝星人及宇宙。**
 
-我喜欢这个世界一切可爱又酷的人类：喜欢不受世事约束的理想主义者；喜欢自由自在追寻目标的冒险者；喜欢用作品给别人带来感动与阳光的创作者；喜欢倾其一生探寻未知事物的开拓者；
+<br />
 
-我，喜欢一切有“少年感”的人，不论性别。
+狐狸就不说了，他是可爱的生物；
+
+<br />
+
+喜欢蓝星人是因为他们有无穷无尽的创造力和想象力。
+
+我也喜欢这个世界一切可爱又酷的生命体：不受世事约束的理想主义者；自由自在追寻目标的冒险者；用作品给别人带来感动与阳光的创作者；倾其一生探寻未知事物的开拓者；
+
+我，喜欢一切有「少年感」的生命体，不论性别和物种。
+
+<br />
+
+喜欢宇宙是因为我来自那里。
+
+<br />
 
 # 在做什么？
-我在努力成为自己能喜欢的那种“少年”，也在发现万千人类中能有幸相遇的“少年”。
+我在努力成为自己能喜欢的那种「少年」，也在发现万千蓝星人中能有幸相遇的「少年」。
 
 <br />
 
 # 提问箱
-想要了解 Probe 的话，请到[提问箱](https://probe.earth/ask)这里向 Probe 匿名（或不匿名）提问。
+有任何的问题话，请到[提问箱](https://probe.earth/ask)这里向 Probe 匿名（或不匿名）提问。
 
 
 

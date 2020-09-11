@@ -1,0 +1,137 @@
+---
+layout: post
+title:  "Probe 设定图更新【2020.09】"
+date:   2020-09-11 00:00:00 -0700
+image:  /img/post-probe-settei/probe-and-moy.jpg
+tags:   [随记]
+---
+
+应 [Nexus](http://discord.probe.earth/) 群友要求，更新一下目前手头上有的全部 Probe 设定图：
+
+# 原始设定
+
+## 原设一：Probe from 《星际争霸》
+
+{:refdef: style="text-align: center;"}
+![Probe from 《星际争霸》（原设一）]({{site.baseurl}}/img/post-probe-settei/probe_sc1.jpg)
+*来源：暴雪娱乐*
+{:refdef}
+
+## 原设二：Probe from 《星际争霸二》
+
+{:refdef: style="text-align: center;"}
+![Probe from 《星际争霸二》（原设二）]({{site.baseurl}}/img/post-probe-settei/probe_sc2.jpg)
+*来源：暴雪娱乐*
+{:refdef}
+
+## 原设三：Probe from 《爆笑星际》 by Carbot Animation
+
+{:refdef: style="text-align: center;"}
+![Probe from 《爆笑星际》（原设三）]({{site.baseurl}}/img/post-probe-settei/probe_carbot.jpg)
+*来源：Carbot Animation*
+{:refdef}
+
+# Probe 约稿图
+
+Probe「少年化」后的基本设定：
+
+* 金发蓝眼，眼睛细节如原设二中所示；
+* 短发少年；
+* 喜欢戴护目镜；
+* 喜欢戴围巾；
+* 喜欢穿露指手套；
+
+## 棕色围巾+露指手套 by @coco
+
+{:refdef: style="text-align: center;"}
+![]({{site.baseurl}}/img/post-probe-settei/probe_coco.jpg)
+*画师：[@coco](https://weibo.com/u/2030915464)*
+{:refdef}
+
+## 衬衫+背带裤 by @流血电台
+
+{:refdef: style="text-align: center;"}
+![]({{site.baseurl}}/img/post-probe-settei/probe_diantai.png)
+*画师：[@流血电台](https://weibo.com/JKm11)*
+{:refdef}
+
+## 2018 主设 by @月Wishky__
+
+{:refdef: style="text-align: center;"}
+![]({{site.baseurl}}/img/post-probe-settei/probe_wishky.jpg)
+*画师：[@月Wishky__](https://weibo.com/yuewishky)*
+{:refdef}
+
+## 风镜+衬衫 by @天台
+
+{:refdef: style="text-align: center;"}
+![]({{site.baseurl}}/img/post-probe-settei/probe_tiantai.jpg)
+*画师：[@天台是一把弓](https://www.weibo.com/u/5711418263)*
+{: refdef}
+
+## 风镜+蓝色围巾+露指手套 by @失落流星Astral
+
+{:refdef: style="text-align: center;"}
+![]({{site.baseurl}}/img/post-probe-settei/probe_astral1.jpg)
+*画师：[@失落流星Astral](https://weibo.com/u/6124552807)*
+{:refdef}
+
+## 红色兜帽 by @失落流星Astral
+
+{:refdef: style="text-align: center;"}
+![]({{site.baseurl}}/img/post-probe-settei/probe_astral2.jpg)
+*画师：[@失落流星Astral](https://weibo.com/u/6124552807)*
+{:refdef}
+
+## 动物森友会 by @BenRG
+
+{:refdef: style="text-align: center;"}
+![]({{site.baseurl}}/img/post-probe-settei/probe_ben.jpg)
+*画师：[@BenRG](https://weibo.com/u/5064371793)*
+{:refdef}
+
+## Probe&Moy by @Koe
+
+{:refdef: style="text-align: center;"}
+![]({{site.baseurl}}/img/post-probe-settei/probe-and-moy.jpg)
+*画师：[@Koe_寝不足](https://weibo.com/u/1856067661)*
+{:refdef}
+
+
+## 2020 主设——Pandemic 蒸汽朋克夏装 by @穆玛飞飞
+
+{:refdef: style="text-align: center;"}
+![]({{site.baseurl}}/img/post-probe-settei/probe_muma1.png)
+{:refdef}
+
+{:refdef: style="text-align: center;"}
+![]({{site.baseurl}}/img/post-probe-settei/probe_muma2.png)
+*画师：[@穆玛飞飞](https://weibo.com/0mumafeifei0)*
+{:refdef}
+
+## 表情包 by @穆玛飞飞
+
+{:refdef: style="text-align: center;"}
+![]({{site.baseurl}}/img/post-probe-settei/probe_muma3.png)
+*画师：[@穆玛飞飞](https://weibo.com/0mumafeifei0)*
+{:refdef}
+
+## Pandemic 夏装 by @0_5zero
+
+{:refdef: style="text-align: center;"}
+![]({{site.baseurl}}/img/post-probe-settei/probe_0_5zero.jpg)
+*画师：[@0_5zero](https://twitter.com/0_5zero)*
+{:refdef}
+
+## 兜帽装 by @もん
+
+{:refdef: style="text-align: center;"}
+![]({{site.baseurl}}/img/post-probe-settei/probe_mon.jpg)
+*画师：[@hisame_mon](https://twitter.com/hisame_mon)*
+{:refdef}
+
+# 关于同人创作
+
+目前 Probe 手头的图就这么多啦 =w=，如果有人画咱的同人的话会很开心的 Owo
+
+（请发到~~唯一指定邮箱~~：[info@probe.earth](mailto:info@probe.earth)，也可以直接在微博（[@神工智能普洛比](https://weibo.com/2186466417)）或者推特上（[@__Probe__](https://twitter.com/__Probe__)）at 我）
