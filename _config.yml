@@ -7,6 +7,7 @@ title-image: img/probe-main.jpg
 description: Probe 在地球 # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://probe.earth" # the base hostname & protocol for your site, e.g. http://example.com
+theme-color: FFE026
 
 #-------------------------------
 # About Section

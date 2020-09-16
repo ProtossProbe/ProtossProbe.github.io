@@ -62,23 +62,10 @@
     data-isso-vote="true" data-isso-vote-levels="" data-isso-feed="false" src="{{ site.url }}/js/embed.min.js"></script>
 
   <style>
-    {
-      % capture include_to_scssify %
-    }
-
-      {
-      % include main.scss %
-    }
-
-      {
-      % endcapture %
-    }
-
-      {
-        {
-        include_to_scssify | scssify
-      }
-    }
+  {% capture include_to_scssify %}
+    {% include main.scss %}
+  {% endcapture %}
+  {{ include_to_scssify | scssify }}
   </style>
 
   <!-- Twitter cards -->
@@ -128,8 +115,7 @@
   <meta name="og:image" content="{{ site.title-image }}">
   {% endif %}
 
-  <meta name="theme-color" content="#FFE026">
-
+  <meta name="theme-color" content="#{{ site.theme-color }}">
 
 
   <!-- isso  -->
