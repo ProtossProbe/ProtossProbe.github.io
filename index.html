@@ -22,7 +22,7 @@ layout: default
 					<h2 class="article-title"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
 					</h2>
 					<p class="article-excerpt">
-						{% if post.description %}{{ post.description | strip_html | truncate: 163 }}{% else %}{{ post.content | strip_html | truncate: 163 }}{% endif %}
+						{% if post.description %}{{ post.description | strip_html | truncate: 80 }}{% else %}{{ post.content | strip_html | truncate: 80 }}{% endif %}
 					</p>
 					<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">阅读</a>
 				</div>
@@ -69,7 +69,7 @@ layout: default
 								<a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
 							</h2>
 							<p class="article-excerpt">
-								{% if post.description %}{{ post.description | strip_html | truncate: 135 }}{% else %}{{ post.content | strip_html | truncate: 135 }}{% endif %}
+								{% if post.description %}{{ post.content | strip_html | truncate: 75 }}{% else %}{{ post.content | strip_html | truncate: 75 }}{% endif %}
 							</p>
 						</div>
 					</div>

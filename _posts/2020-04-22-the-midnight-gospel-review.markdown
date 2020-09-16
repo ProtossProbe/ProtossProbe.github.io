@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "「午夜福音」主观测评——在嗑药中听播客"
+title:  "「午夜福音」主观测评"
+description: "——在嗑药中听播客"
 date:   2020-04-20 05:25:00 -0700
 image:  /img/post-the-midnight-gospel/cover.jpg
 tags:   [动画]

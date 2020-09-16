@@ -1,14 +1,11 @@
 ---
 layout: post
 title:  "神奇行星在哪里？（上）"
-description: "关于第九行星最详细的中文科普。"
+description: "Fantastic Planet And Where To Find It?"
 date:   2019-05-15 00:00:00 +0800
 image:  /img/post-fantastic-planet-1/cover.jpg
 tags:   [天文]
 ---
-{:refdef: style="text-align: center;"}
-## Fantastic Planet And Where To Find It?
-{: refdef}
 
 > 2019 年 2 月，加州理工学院地质与行星科学系（Caltech GPS）的助理教授 Konstantin Batygin 和教授 Mike Brown，与密歇根州立大学天文系（University of Michigan）的教授 Fred Adams 及其博士生 Juliette Becker，共同在著名的物理学综述性期刊——《Physics Reports》上发表了题为《The planet nine hypothesis（第九行星假说）》的论文。在文中，Batygin 等人用长达 50 页的篇幅，详细地论证了第九行星（Planet Nine）在外太阳系存在的可能性。
 
