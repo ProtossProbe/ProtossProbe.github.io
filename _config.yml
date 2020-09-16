@@ -2,7 +2,7 @@
 #-------------------------------
 # General Site Settings
 
-title: probe.earth
+title: Probe @ Earth
 title-image: img/probe-main.jpg
 description: Probe 在地球 # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
