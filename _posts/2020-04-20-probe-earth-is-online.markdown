@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "probe.earth 再次上线啦！"
+description:  "快加入你的收藏夹吧！"
 date:   2020-04-20 05:25:00 -0700
 image:  /img/probe-main.jpg
 tags:   [随记]

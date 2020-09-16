@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Anu 世界观设定 v0.11
-"
+title:  "Anu 世界观设定"
+description:  "更新至 v0.11 版。"
 date:   2020-06-11 24:00:00 -0700
 image:  /img/post-anu/cover.jpg
 tags:   [Anu]

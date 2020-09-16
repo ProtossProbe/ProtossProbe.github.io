@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "神奇行星在哪里？（上）"
+description: "关于第九行星最详细的中文科普。"
 date:   2019-05-15 00:00:00 +0800
 image:  /img/post-fantastic-planet-1/cover.jpg
 tags:   [天文]

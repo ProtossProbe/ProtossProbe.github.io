@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "自转的理想气体行星是什么形状的？"
+description:  "写给知乎问题——《自转的理想气体行星是什么形状的？》的回答。"
 date:   2020-06-30 00:00:00 -0700
 image:  /img/post-rotating-planet/jupiter.jpg
 tags:   [天文]

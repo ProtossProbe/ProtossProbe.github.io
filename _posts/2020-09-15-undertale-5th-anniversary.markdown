@@ -1,12 +1,12 @@
 ---
-layout: post
-title:  "Your music changed my life"
-date:   2020-09-11 00:00:00 -0700
-image:  /img/post-undertale/tobyfox.jpg
-tags:   [游戏]
+layout:       post
+title:        "Your music changed my life"
+description:  "——致我生命中最重要的一款游戏。"
+date:         2020-09-11 00:00:00 -0700
+image:        /img/post-undertale/tobyfox.jpg
+tags:         [游戏]
 ---
 
-——致我生命中最重要的一款游戏。
 
 <br />
 

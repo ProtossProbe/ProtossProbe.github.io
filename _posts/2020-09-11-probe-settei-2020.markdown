@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Probe 设定图更新【2020.09】"
+description:  "Probe 全部设定图放出！"
 date:   2020-09-11 00:00:00 -0700
 image:  /img/post-probe-settei/probe-and-moy.jpg
 tags:   [随记]
