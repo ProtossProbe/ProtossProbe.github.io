@@ -4,10 +4,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
+  <meta name='description'
+    content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
+    href="{{ "/feed.xml" | relative_url }}">
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,500" rel="stylesheet">
@@ -16,21 +18,41 @@
   <!-- Ionicons -->
   <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
 
-  <script data-ad-client="ca-pub-1561605616008846" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script data-ad-client="ca-pub-1561605616008846" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
   <script>
-    (function(d) {
+    (function (d) {
       var config = {
-        kitId: 'bqc0gxj',
-        scriptTimeout: 3000,
-        async: true
-      },
-      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+          kitId: 'bqc0gxj',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h = d.documentElement,
+        t = setTimeout(function () {
+          h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+        }, config.scriptTimeout),
+        tk = d.createElement("script"),
+        f = false,
+        s = d.getElementsByTagName("script")[0],
+        a;
+      h.className += " wf-loading";
+      tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+      tk.async = true;
+      tk.onload = tk.onreadystatechange = function () {
+        a = this.readyState;
+        if (f || a && a != "complete" && a != "loaded") return;
+        f = true;
+        clearTimeout(t);
+        try {
+          Typekit.load(config)
+        } catch (e) {}
+      };
+      s.parentNode.insertBefore(tk, s)
     })(document);
   </script>
   <!-- MathJax  -->
-  <script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
   <!-- isso comment  -->
   <script data-isso="https://probe.solar" data-isso-id="thread-id" data-isso-css="false" data-isso-lang="zh_CN"
@@ -40,22 +62,35 @@
     data-isso-vote="true" data-isso-vote-levels="" data-isso-feed="false" src="{{ site.url }}/js/embed.min.js"></script>
 
   <style>
-  {% capture include_to_scssify %}
-    {% include main.scss %}
-  {% endcapture %}
-  {{ include_to_scssify | scssify }}
+    {
+      % capture include_to_scssify %
+    }
+
+      {
+      % include main.scss %
+    }
+
+      {
+      % endcapture %
+    }
+
+      {
+        {
+        include_to_scssify | scssify
+      }
+    }
   </style>
 
   <!-- Twitter cards -->
-  <meta name="twitter:site"    content="@{{ site.twitter-username }}">
-  
+  <meta name="twitter:site" content="@{{ site.twitter-username }}">
+
   {% if page.author %}
   <meta name="twitter:creator" content="@{{ page.author }}">
   {% else %}
   <meta name="twitter:creator" content="@{{ site.author-name }}">
   {% endif %}
 
-  <meta name="twitter:title"   content="{{ page.title }}">
+  <meta name="twitter:title" content="{{ page.title }}">
 
   {% if page.description %}
   <meta name="twitter:description" content="{{ page.description }}">
@@ -64,15 +99,37 @@
   {% endif %}
 
   {% if page.image %}
-  <meta name="twitter:card"  content="summary_large_image">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
   {% else %}
-  <meta name="twitter:card"  content="summary">
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:image" content="{{ site.title-image }}">
   {% endif %}
   <!-- end of Twitter cards -->
 
-   <!-- isso  -->
-   <link rel="stylesheet" href="{{ site.url }}/css/isso.css">
+  <!-- meta tags -->
+  <meta name="og:site_name" content="{{ site.title }}">
+
+  {% if page.title %}
+  <meta name="og:title" content="{{ page.title }}">
+  {% else %}
+  <meta name="og:title" content="{{ site.description }}">
+  {% endif %}
+
+  {% if page.description %}
+  <meta name="og:description" content="{{ page.description }}">
+  {% else %}
+  <meta name="og:description" content="{{ site.description }}">
+  {% endif %}
+
+  {% if page.image %}
+  <meta name="og:image" content="{{ site.url }}{{ page.image }}">
+  {% else %}
+  <meta name="og:image" content="{{ site.title-image }}">
+  {% endif %}
+
+
+  <!-- isso  -->
+  <link rel="stylesheet" href="{{ site.url }}/css/isso.css">
 
 </head>
