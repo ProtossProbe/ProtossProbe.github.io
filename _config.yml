@@ -3,6 +3,7 @@
 # General Site Settings
 
 title: probe.earth
+title-image: img/probe-main.jpg
 description: Probe 在地球 # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://probe.earth" # the base hostname & protocol for your site, e.g. http://example.com
@@ -16,7 +17,7 @@ author-avatar: probe-icon.jpg
 # Contact links
 youtube: https://www.youtube.com/channel/UCb-z8x0TD6cPtGkFLlUi4Sw # Add your Youtube handle
 twitter: https://twitter.com/__Probe__ # Add your Facebook handle
-twitter_username: __Probe__
+twitter-username: __Probe__
 soundcloud: https://soundcloud.com/protossprobe # Add your Soundcloud handle
 spotify: https://open.spotify.com/artist/55avQ47LWG1LUaF5AfGdlY # Add your Spotify handle
 contact: mailto:info@probe.earth # Add your Spotify handle
