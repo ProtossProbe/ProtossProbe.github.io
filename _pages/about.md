@@ -9,7 +9,7 @@ permalink: /about/
 
 具体设定形象请参见：
 {:refdef: style="text-align: center;"}
-## [Probe 设定图更新【2020.09】]({{site.baseurl}}/post/2020-09-11-probe-settei-2020)
+## [Probe 设定图更新【2020.09】]({{site.baseurl}}/post/probe-settei-2020)
 {: refdef}
 
 <br />
