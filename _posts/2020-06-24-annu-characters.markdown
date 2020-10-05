@@ -3,7 +3,7 @@ layout: post
 title:  "Anu 角色设定"
 description:  "更新至 v0.11 版。"
 date:   2020-06-23 00:00:00 -0700
-image:  /img/post-anu/map.jpg
+image:  /img/post-anu/link.jpg
 tags:   [Anu]
 ---
 ### 更新日志：
