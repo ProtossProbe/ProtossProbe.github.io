@@ -4,7 +4,7 @@ title:        "迷你公路（Mini Motorways）高分攻略"
 description:  "迷你地铁续作，毒性丝毫不减"
 date:         2020-11-15 00:00:00 -0700
 image:        /img/post-mini-motorways/cover.jpg
-tags:         [日志]
+tags:         [游戏]
 ---
 
 Mini Motorway （迷你公路）是由曾制作了 Mini Metro（迷你地铁）的 Dinosaur Polo Club 工作室开发的一款极简风格的线路规划游戏。和前作一样，迷你公路的地图囊括了全世界各大洲的主要城市，玩家不仅可以在慕尼黑挖隧道，在洛杉矶搭建高速公路，甚至还可以在北京玉渊潭上......
