@@ -31,6 +31,46 @@
   }
 }
 
+.widget-title-no-border {
+  transform: translateY(260%);
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  h3 {
+    text-align: center;
+    color: $text;
+    transition: all 1s cubic-bezier(0.6, 0.3, 0, 1);
+    font-size: 42px;
+  }
+
+  h3:hover {
+    transform: translateX(-8%);
+    color: $primary-color;
+  }
+}
+
+.widget-image {
+  background-size: cover;
+  height: 180px;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  transition: all 1s cubic-bezier(0.6, 0.3, 0, 1);
+}
+
+.widget-image:hover {
+  opacity: 1;
+}
+
+.overlay-box {
+  position: relative;
+  display: block;
+}
+
+
 // Recent Widget
 .recent-posts {
   font-family: $base-font-family;
@@ -198,7 +238,8 @@
 }
 
 // Newsletter Widget
-.widget-newsletter {
+.widget-newsletter,
+.widget-image {
   text-align: center;
 
   .newsletter-subtitle {

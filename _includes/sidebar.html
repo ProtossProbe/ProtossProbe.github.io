@@ -8,7 +8,7 @@
       {% if post.image %}
       <div class="recent-header">
         <a class="recent-image" href="{{ root_url }}{{ post.url | prepend: site.baseurl }}"
-          style="background-image: url({{"" | prepend: site.baseurl | append: post.image}})"></a>
+          style="background-image: url({{ site.baseurl | append: post.image}})"></a>
       </div>
       {% else %}
       {% endif %}
@@ -25,6 +25,43 @@
   {% else %}
   {% endif %}
 
+  {% if site.twitch %}
+  <a class="overlay-box" href={{ site.twitch}}>
+  <div  class="widget widget-image" style="background-image: url({{"/img/" | prepend: site.baseurl | append : site.twitch-image}});"></div>
+  <div class="widget-title-no-border">
+  <h3 style=><ion-icon name="logo-twitch"></ion-icon></h3>
+  </div>
+  </a>
+  {% endif %}
+
+  {% if site.discord %}
+  <a class="overlay-box" href={{ site.twitter }}>
+  <div  class="widget widget-image" style="background-image: url({{"/img/" | prepend: site.baseurl | append : site.discord-image}});"></div>
+  <div class="widget-title-no-border">
+  <h3 style=><ion-icon name="logo-discord"></ion-icon></h3>
+  </div>
+  </a>
+  {% endif %}
+
+  {% if site.twitter %}
+  <a class="overlay-box" href={{ site.twitter }}>
+  <div  class="widget widget-image" style="background-image: url({{"/img/" | prepend: site.baseurl | append : site.twitter-image}});"></div>
+  <div class="widget-title-no-border">
+  <h3 style=><ion-icon name="logo-twitter"></ion-icon></h3>
+  </div>
+  </a>
+  {% endif %}
+
+  {% if site.youtube %}
+  <a class="overlay-box" href={{ site.youtube }}>
+  <div  class="widget widget-image" style="background-image: url({{"/img/" | prepend: site.baseurl | append : site.youtube-image}});"></div>
+  <div class="widget-title-no-border">
+  <h3 style=><ion-icon name="logo-youtube"></ion-icon></h3>
+  </div>
+  </a>
+  {% endif %}
+
+
   <div class="widget widget-social">
     <h3 class="widget-title">联系与订阅</h3>
     <ul class="social-profiles list-reset">
@@ -36,7 +73,7 @@
 
       {% if site.twitter %}
       <li class="social-profiles-item">
-        <a href="{{ site.twitter }}" class="social-profiles-link"><i class="ion ion-logo-twitter"></i></a>
+        <a href="{{ site.twitter }}" class="social-profiles-link"><ion-icon name="logo-twitter"></ion-icon></a>
       </li>
       {% else %} {% endif %}
 
@@ -54,7 +91,7 @@
 
       {% if site.youtube %}
       <li class="social-profiles-item">
-        <a href="{{ site.youtube }}" class="social-profiles-link"><i class="ion ion-logo-youtube"></i></a>
+        <a href="{{ site.youtube }}" class="social-profiles-link"><ion-icon name="logo-youtube"></ion-icon></a>
       </li>
       {% else %} {% endif %}
 
@@ -74,6 +111,7 @@
     </ul>
   </div>
 
+  {% if site.newsletter == true %}
   <div class="widget widget-newsletter">
     <h3 class="widget-title">邮件订阅</h3>
     <div class="newsletter-subtitle">输入你的邮箱地址</div>
@@ -90,6 +128,7 @@
       </div>
     </form>
   </div>
+  {% endif %}
 
   {% if site.instafeed == true %}
   <div class="widget widget-instagram">

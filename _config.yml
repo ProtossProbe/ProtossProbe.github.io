@@ -17,8 +17,18 @@ author-avatar: probe-icon.jpg
 #-------------------------------
 # Contact links
 youtube: https://www.youtube.com/channel/UCb-z8x0TD6cPtGkFLlUi4Sw # Add your Youtube handle
+youtube-image: youtube-cover.png
+
+twitch: https://twitch.com/probelive
+twitch-image: twitch-cover.jpg
+
 twitter: https://twitter.com/__Probe__ # Add your Facebook handle
+twitter-image: twitter-cover.jpg
 twitter-username: __Probe__
+
+discord: http://discord.probe.earth
+discord-image: discord-cover.png
+
 soundcloud: https://soundcloud.com/protossprobe # Add your Soundcloud handle
 spotify: https://open.spotify.com/artist/55avQ47LWG1LUaF5AfGdlY # Add your Spotify handle
 contact: mailto:info@probe.earth # Add your Spotify handle
