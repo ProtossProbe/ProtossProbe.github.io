@@ -9,6 +9,7 @@ tags:         [游戏]
 
 > 开发 Graceful Decay // 发行 
 Annapurna Interactive // [Steam 链接](https://store.steampowered.com/app/762840/Maquette/)
+> 预计游玩时长 3-4 小时
 
 非欧空间与解谜游戏一直都能产生让人眼前一亮的化学反应。Valve 开发的[传送门系列](https://store.steampowered.com/app/620/Portal_2/)，用一把传送枪让玩家初尝了于三维空间中自由传送的舒爽体验；而由 William Chry 开发的解谜游戏 [Manifold Garden](https://store.steampowered.com/app/473950/Manifold_Garden/) 则将非欧空间的概念发挥到了极致，最终呈现出的则是一款集视觉与空间感上的双重盛筵。
 
@@ -45,7 +46,7 @@ Maquette 是一个法语词，原意是模型、原型。而在游戏中，Maque
 
 # 总体评价
 
-Maquette 是一款以空间迭代为基础的解谜游戏。它有着精美的视觉艺术呈现以及数首优秀的游戏配乐插曲，但是却在谜题深度以及叙事乏善可陈。
+Maquette 是一款以空间迭代为基础的解谜游戏。它有着精美的视觉艺术呈现以及数首优秀的游戏配乐插曲，但是却在谜题深度以及叙事上乏善可陈。
 
 <br />
 
