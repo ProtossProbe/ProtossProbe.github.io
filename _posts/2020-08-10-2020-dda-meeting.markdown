@@ -30,12 +30,7 @@ tags:   [天文]
 
 我是万万没有想到，自己开的第二个学术会议就变成了在线的虚拟会议。在过去一周的时间里，我足不出户就能与世界各地的 Astronomers 相互交流，虽然少了会议室里的~~免费果盘~~和开完会之后的~~免费旅游~~，但是能参加这一次的 DDA 虚拟会议也是一段非常难得的体验。那么，就先来分享下一个虚拟的学术会议室是怎么开的吧！
 
-首先，和普通的学术会议一样，会议的主办方会提前几个月的时间 call for abstract，也就是通知想要参与会议的 Astronomers 提交自己的内容摘要。在摘要被通过之后，Astronomers 就可以开始准备会议上要展示的东西了：要么是一段提前录好的 talk（Pre-recorded talk），要么就是一张学术海报（Poster）。和参加的第一次 DDA 会议不同，我在这次会议上选择了 Poster 这个形式，下面是我自己做的一张关于“地火小行星带（Earth-Mars belt）”研究的学术海报：
-
-{:refdef: style="text-align: center;"}
-![学术海报]({{site.baseurl}}/img/post-dda-meeting/Poster_EM_Belt_2.jpg)
-*Probe 做的学术海报*
-{: refdef}
+首先，和普通的学术会议一样，会议的主办方会提前几个月的时间 call for abstract，也就是通知想要参与会议的 Astronomers 提交自己的内容摘要。在摘要被通过之后，Astronomers 就可以开始准备会议上要展示的东西了：要么是一段提前录好的 talk（Pre-recorded talk），要么就是一张学术海报（Poster）。和参加的第一次 DDA 会议不同，我在这次会议上选择了 Poster 这个形式。
 
 而预录 talk 则需要自己做个 PPT，然后录制一段 10 分钟左右的宣讲视频。我在几个月之后的 DPS 会议上应该会选择 talk 的形式，所以到时候还会和大家分享一下如何自己录制和制作一段学术宣讲视频（毕竟做过那么多的游戏实况，这点事情对我来说还比较简单 XD）。
 

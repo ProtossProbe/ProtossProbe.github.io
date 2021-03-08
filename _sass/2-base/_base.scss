@@ -10,14 +10,17 @@ $base-font-family: 'Zilla Slab',
 'source-han-serif-sc',
 serif;
 $sans-font-family: -apple-system,
+"Source Han Sans SC",
+"Source Han Sans CN",
+"Source Han Sans",
 "Helvetica Neue",
 "Arial",
 "PingFang SC",
 "Hiragino Sans GB",
 "STHeiti",
 "Microsoft YaHei",
-"Microsoft JhengHei",
-"Source Han Sans SC";
+"Microsoft JhengHei";
+
 $base-line-height: 25px;
 
 *,
@@ -69,9 +72,9 @@ Helvetica Neue,
 Helvetica,
 Arial,
 sans-serif;
-$font-size-h1: 36px;
-$font-size-h2: 28px;
-$font-size-h3: 24px;
+$font-size-h1: 28px;
+$font-size-h2: 25px;
+$font-size-h3: 22px;
 $font-size-h4: 20px;
 $font-size-h5: 18px;
 $font-size-h6: 16px;
@@ -109,6 +112,10 @@ h5 {
 
 h6 {
     font-size: $font-size-h6;
+}
+
+p {
+    font-family: $sans-font-family;
 }
 
 // Blockquote
