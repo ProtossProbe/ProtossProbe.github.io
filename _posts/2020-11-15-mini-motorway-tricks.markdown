@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "迷你公路（Mini Motorways）高分攻略"
+title:        "迷你公路（Mini Motorways）高分技巧与攻略"
 description:  "迷你地铁续作，毒性丝毫不减"
 date:         2020-11-15 00:00:00 -0700
 image:        /img/post-mini-motorways/cover.jpg
