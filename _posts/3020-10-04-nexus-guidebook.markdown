@@ -2,7 +2,7 @@
 layout:       post
 title:        "中文 Discord 群——Nexus 畅玩指南"
 description:  "一个以兴趣为中心的 Discord 服务器"
-date:         2020-10-05 00:00:00 -0700
+date:         3020-10-05 00:00:00 -0700
 image:        /img/post-nexus/cover.png
 tags:         [随记]
 ---
