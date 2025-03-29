@@ -29,7 +29,7 @@ layout: default
 					<div class="post-info">
 						<div class="post-info-author">
 							<div class="info-author-avatar"
-								style="background-image: url({{"/img/" | prepend: site.baseurl | append : site.author-avatar}})">
+								style="background-image: url('{{"/img/" | prepend: site.baseurl | append: site.author-avatar}}');">
 							</div>
 							<span>by</span>
 							<span class="info-author-name">{{site.author-name}}</span>
@@ -50,18 +50,10 @@ layout: default
 						<ul class="share-list list-reset">
 							<li class="share-item">
 								<a class="share-twitter"
-									href="https://twitter.com/intent/tweet?text=分享了 probe.earth 上的文章「{{ page.title | uri_escape }}」&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+									href="https://twitter.com/intent/tweet?text=Article from Probe's Writing: '{{ page.title | uri_escape }}'&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
 									onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-									title="分享到推特" rel="nofollow">
+									title="Share on Twitter" rel="nofollow">
 									<i class="ion ion-logo-twitter"></i>
-								</a>
-							</li>
-							<li class="share-item">
-								<a class="share-weibo"
-									href="http://service.weibo.com/share/share.php?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title=分享了 Probe @ Earth 上的文章：「{{ page.title | uri_escape }}」"
-									onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-									title="分享到微博" rel="nofollow">
-									<i class="ion ion-md-share"></i>
 								</a>
 							</li>
 						</ul>
@@ -71,19 +63,22 @@ layout: default
 				<div class="post-navigation">
 					{% if page.previous.url %}
 					<a href="{{ site.baseurl }}{{page.previous.url}}" class="prev">
-						<div class="post-nav-arrow"><i class="ion ion-ios-arrow-round-back"></i> 下一篇文章</div>
+						<div class="post-nav-arrow"><i class="ion ion-ios-arrow-round-back"></i> Previous Post</div>
 						<h2 class="post-nav-title">{{page.previous.title}}</h2>
 					</a>
 					{% endif %} {% if page.next.url %}
 					<a href="{{ site.baseurl }}{{page.next.url}}" class="next">
-						<div class="post-nav-arrow">上一篇文章 <i class="ion ion-ios-arrow-round-forward"></i></div>
+						<div class="post-nav-arrow">Next Post <i class="ion ion-ios-arrow-round-forward"></i></div>
 						<h2 class="post-nav-title">{{page.next.title}}</h2>
 					</a>
 					{% endif %}
 				</div>
 
 			</div>
-			{% include isso-comments.html %}
+			{% if site.disqus-identifier %}
+				{% include disqus-comments.html %}
+			{% endif %}
+
 		</article> <!-- /.post -->
 
 		<div class="col col-12 col-t-4">

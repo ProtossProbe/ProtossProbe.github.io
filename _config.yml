@@ -2,7 +2,7 @@
 #-------------------------------
 # General Site Settings
 
-title: Probe's Writing
+title: Probe @ Earth
 title-image: img/probe-main.jpg
 description: Personal writing and thoughts # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -16,16 +16,16 @@ author-avatar: probe-icon.jpg
 
 #-------------------------------
 # Contact links
-twitter: https://twitter.com/__Probe__ # Add your Twitter handle
+twitter: https://twitter.com/probelive # Add your Twitter handle
 twitter-image: twitter-cover.jpg
-twitter-username: __Probe__
+twitter-username: probelive
 
 spotify: https://open.spotify.com/artist/55avQ47LWG1LUaF5AfGdlY # Add your Spotify handle
 contact: mailto:info@probe.earth # Add your email handle
 
 #-------------------------------
 # Comment Section (Disqus)
-# disqus-identifier: Probe # Add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: probe-earth # Add your shortname for Disqus Comment. For example mr-brown
 
 #-------------------------------
 # Instagram Feed

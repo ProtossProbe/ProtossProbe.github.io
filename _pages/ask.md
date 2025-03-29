@@ -1,26 +1,25 @@
 ---
 layout: board
-title: 提问箱
+title: Ask Me
 permalink: /ask/
 ---
 
 {:refdef: style="text-align: center;"}
-### 这是一个 Probe 的公开提问箱
-{: refdef}
+### This is Probe's public question box
+{:refdef}
 
 {:refdef: style="text-align: center;"}
 ### [ask.probe.earth](http://ask.probe.earth)
-{: refdef}
+{:refdef}
 
 {:refdef: style="text-align: center;"}
-你可以在下面的评论区匿名（当然也可以实名）向 Probe 提任何问题，Probe 会尽快回复哒~
-{: refdef}
+You can anonymously (or with your name) ask Probe any questions in the comment section below. Probe will respond as soon as possible!
+{:refdef}
 
 {:refdef: style="text-align: center;"}
 ### (･ω<)☆
-{: refdef}
+{:refdef}
 
 {:refdef: style="text-align: center;"}
-![盯~~]({{site.baseurl}}/img/board/probe-emoji-1.jpg)
+![Looking at you~]({{site.baseurl}}/img/board/probe-emoji-1.jpg)
 {: refdef}
-
