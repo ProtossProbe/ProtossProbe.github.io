@@ -2,9 +2,9 @@
 #-------------------------------
 # General Site Settings
 
-title: Probe @ Earth
+title: Probe's Writing
 title-image: img/probe-main.jpg
-description: Probe 在地球 # this means to ignore newlines until "baseurl:"
+description: Personal writing and thoughts # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://probe.earth" # the base hostname & protocol for your site, e.g. http://example.com
 theme-color: FFE026
@@ -16,23 +16,12 @@ author-avatar: probe-icon.jpg
 
 #-------------------------------
 # Contact links
-youtube: https://www.youtube.com/channel/UCb-z8x0TD6cPtGkFLlUi4Sw # Add your Youtube handle
-youtube-image: youtube-cover.png
-
-twitch: https://twitch.com/probelive
-twitch-image: twitch-cover.jpg
-
-twitter: https://twitter.com/__Probe__ # Add your Facebook handle
+twitter: https://twitter.com/__Probe__ # Add your Twitter handle
 twitter-image: twitter-cover.jpg
 twitter-username: __Probe__
 
-discord: http://discord.probe.earth
-discord-image: discord-cover.png
-
-soundcloud: https://soundcloud.com/protossprobe # Add your Soundcloud handle
 spotify: https://open.spotify.com/artist/55avQ47LWG1LUaF5AfGdlY # Add your Spotify handle
-contact: mailto:info@probe.earth # Add your Spotify handle
-# pinterest: https://www.pinterest.com/ # Add your Facebook handle
+contact: mailto:info@probe.earth # Add your email handle
 
 #-------------------------------
 # Comment Section (Disqus)
