@@ -75,7 +75,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
-  jekyll (~> 4.3.2)
+  jekyll (~> 4.3.4)
   jekyll-feed
   jekyll-paginate
   jekyll-sitemap

@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
 gem "bundler"
-gem "jekyll", "~> 4.3.2"
+# gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 4.3.4"
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
 gem "jekyll-feed"
