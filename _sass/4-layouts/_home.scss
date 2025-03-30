@@ -234,6 +234,10 @@
     .article-content-first {
         padding: 20px;
         color: $text;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 5px;
+        max-width: 90%;
+        margin: 0 auto;
 
         .article-tag {
             .tag {
@@ -252,7 +256,7 @@
         .article-title {
             margin-bottom: 20px;
             font-size: 30px;
-            line-height: 30px;
+            line-height: 1.3;
             font-weight: bold;
 
             a {
@@ -288,7 +292,6 @@
 .article {
     display: flex;
     margin-bottom: 25px;
-    // max-width: 50%;
 
     &:hover {
         .article-image {
@@ -299,7 +302,7 @@
 
         .article-image {
             .image-overlay {
-                opacity: .5;
+                opacity: .8;
                 width: 100%;
             }
         }
@@ -308,6 +311,12 @@
     .article-box {
         padding-bottom: 20px;
         border-bottom: 2px solid $border-color;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(16, 16, 16, 0.2);
+        border-radius: 5px;
+        overflow: hidden;
     }
 
     .article-head {
@@ -317,7 +326,7 @@
     .article-image {
         position: relative;
         display: block;
-        margin-bottom: 20px;
+        margin-bottom: 0;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -327,7 +336,7 @@
         &:before {
             content: "";
             display: table;
-            padding-top: 75%;
+            padding-top: 60%;
         }
 
         .image-overlay {
@@ -347,7 +356,7 @@
             position: absolute;
             top: 50%;
             left: 50%;
-            font-size: 66px;
+            font-size: 30px;
             text-align: center;
             letter-spacing: 2px;
             color: $text;
@@ -359,6 +368,9 @@
 
     .article-content {
         padding: 15px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
         
         .article-info {
             display: flex;
@@ -404,6 +416,7 @@
 
             a {
                 font-size: 21px;
+                line-height: 1.3;
                 color: $secondary-color;
             }
         }
@@ -413,7 +426,7 @@
             margin-bottom: 0;
             font-size: 15px;
             line-height: 25px;
-            color: $gray-blue-text;
+            color: $text;
         }
     }
 }
