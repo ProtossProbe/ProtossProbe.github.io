@@ -15,16 +15,23 @@
                     <div class="footer-social">
                         <ul class="list-reset">
                             {% if site.facebook %}
-                            <li><a href="{{ site.facebook }}">Facebook</a></li>
+                            <li><a href="{{ site.facebook }}" title="Facebook"><i class="fab fa-facebook"></i></a></li>
                             {% else %} {% endif %} {% if site.twitter %}
-                            <li><a href="{{ site.twitter }}">Twitter</a></li>
+                            <li><a href="{{ site.twitter }}" title="Twitter"><i class="fab fa-twitter"></i></a></li>
                             {% else %} {% endif %} {% if site.instagram %}
-                            <li><a href="{{ site.instagram }}">Instagram</a></li>
+                            <li><a href="{{ site.instagram }}" title="Instagram"><i class="fab fa-instagram"></i></a></li>
                             {% else %} {% endif %} {% if site.pinterest %}
-                            <li><a href="{{ site.pinterest }}">Pinterest</a></li>
+                            <li><a href="{{ site.pinterest }}" title="Pinterest"><i class="fab fa-pinterest"></i></a></li>
                             {% else %} {% endif %} {% if site.youtube %}
-                            <li><a href="{{ site.youtube }}">Youtube</a></li>
+                            <li><a href="{{ site.youtube }}" title="Youtube"><i class="fab fa-youtube"></i></a></li>
                             {% else %} {% endif %}
+                            {% if site.spotify %}
+                            <li><a href="{{ site.spotify }}" title="Spotify"><i class="fab fa-spotify"></i></a></li>
+                            {% else %} {% endif %}
+                            {% if site.contact %}
+                            <li><a href="{{ site.contact }}" title="Contact"><i class="fas fa-envelope"></i></a></li>
+                            {% else %} {% endif %}
+                            <li><a href="{{ site.baseurl }}/feed.xml" title="RSS"><i class="fas fa-rss"></i></a></li>
                         </ul>
                     </div>
                 </div>

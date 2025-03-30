@@ -31,10 +31,6 @@ spotify: https://open.spotify.com/artist/55avQ47LWG1LUaF5AfGdlY # Add your Spoti
 contact: mailto:info@probe.earth # Add your email handle
 
 #-------------------------------
-# Comment Section (Disqus)
-disqus-identifier: probe-earth # Add your shortname for Disqus Comment. For example mr-brown
-
-#-------------------------------
 # Instagram Feed
 # instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
 
