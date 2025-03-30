@@ -1,15 +1,21 @@
----
-layout: null
----
 [
-  {% for post in site.posts %}
+  
     {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "lang"     : "{{ post.lang }}"
-    }{% unless forloop.last %},{% endunless %}
-  {% endfor %}
+      "title"    : "Novel",
+      "category" : "",
+      "tags"     : "test",
+      "url"      : "/test/",
+      "date"     : "2025-03-30 02:00:00 +0900",
+      "lang"     : "en"
+    },
+  
+    {
+      "title"    : "小说",
+      "category" : "",
+      "tags"     : "测试",
+      "url"      : "/test-cn/",
+      "date"     : "2025-03-30 02:00:00 +0900",
+      "lang"     : "cn"
+    }
+  
 ]

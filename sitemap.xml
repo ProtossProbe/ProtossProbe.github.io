@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://probe.earth/test-cn/</loc>
+<lastmod>2025-03-30T02:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://probe.earth/test/</loc>
+<lastmod>2025-03-30T02:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://probe.earth/ask-cn/</loc>
+</url>
+<url>
+<loc>https://probe.earth/ask/</loc>
+</url>
+<url>
+<loc>https://probe.earth/cn/</loc>
+</url>
+<url>
+<loc>https://probe.earth/en/</loc>
+</url>
+<url>
+<loc>https://probe.earth/</loc>
+</url>
+<url>
+<loc>https://probe.earth/tags/</loc>
+</url>
+</urlset>

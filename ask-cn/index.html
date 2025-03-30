@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cn">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Probe @ Earth</title>
+  <title>问答箱</title>
   <meta name='description'
     content='Personal writing and thoughts'>
 
-  <link rel="canonical" href="https://probe.earth/">
+  <link rel="canonical" href="https://probe.earth/ask-cn/">
   <link rel="alternate" type="application/rss+xml" title="Probe @ Earth"
     href="/feed.xml">
 
@@ -79,7 +79,7 @@
   <meta name="twitter:creator" content="@Probe">
   
 
-  <meta name="twitter:title" content="">
+  <meta name="twitter:title" content="问答箱">
 
   
   <meta name="twitter:description" content="Personal writing and thoughts">
@@ -95,7 +95,7 @@
   <meta name="og:site_name" content="Probe @ Earth">
 
   
-  <meta name="og:title" content="Personal writing and thoughts">
+  <meta name="og:title" content="问答箱">
   
 
   
@@ -139,21 +139,25 @@
       <div class="col col-12">
         <div class="header-box">
           <div class="logo-title">
-            <a href="/en/" class="logo-text">Probe</a>
+            <a href="/cn/" class="logo-text">Probe</a>
           </div>
 
           <nav class="nav-menu">
             <i class="menu-close ion ion-ios-close"></i>
             <ul class="menu-list">
               <li class="menu-item">
-                <a href="/en/" class="menu-link">
-                  Home
+                <a href="/cn/" class="menu-link">
+                  首页
                 </a>
               </li>
               
               
               
               
+              
+              <li class="menu-item">
+                <a href="/ask-cn/" class="menu-link">问答箱</a>
+              </li>
               
               
               
@@ -197,7 +201,7 @@
             <div class="language-toggle">
               <a href="/en/" class="lang-btn " data-lang="en">EN</a>
               <span class="lang-separator">|</span>
-              <a href="/cn/" class="lang-btn " data-lang="cn">中文</a>
+              <a href="/cn/" class="lang-btn active" data-lang="cn">中文</a>
             </div>
             <i class="menu-button d-hide ion ion-ios-menu"></i>
             <i class="search-button ion ion-ios-search"></i>
@@ -211,35 +215,75 @@
       <i class="search-close-button ion ion-ios-close"></i>
       <label for="js-search-input" class="screen-reader-text"></label>
       <input type="text" id="js-search-input" class="search-text" autocomplete="off" 
-        placeholder="Search...">
+        placeholder="搜索...">
       <ol id="js-results-container" class="search-results-list"></ol>
     </div>
   </div>
 </header> <!-- /.header -->
 
-  <script>
-  // Redirect to appropriate language page
-  (function() {
-    // Check if user has previously selected a language
-    const userLang = localStorage.getItem('preferredLanguage');
-    
-    if (userLang === 'cn') {
-      window.location.href = '/cn/';
-    } else {
-      // Default to English
-      window.location.href = '/en/';
-    }
-  })();
-</script>
+  <div class="container">
+	<div class="row">
+		<div class="col col-12">
+		</div>
+		<article class="col col-12 col-t-10 push-t-1 page">
+			<div class="page-content">
+				<div class="page-head">
+					<h1 class="page-title">问答箱</h1>
+					
+					
 
-<!-- Fallback content -->
-<div style="text-align: center; padding: 50px 20px;">
-  <h2>Redirecting...</h2>
-  <p>If you are not redirected automatically, please choose your language:</p>
-  <p>
-    <a href="/en/" style="margin: 0 10px; font-weight: bold;">English</a>
-    <a href="/cn/" style="margin: 0 10px; font-weight: bold;">中文</a>
-  </p>
+
+<div class="language-switcher">
+    
+        
+    
+        
+        <a href="/ask/" class="en-link">
+            
+            EN
+            
+        </a>
+        
+    
+</div>
+
+
+					
+				</div>
+
+				<div class="page-body">
+					<h3 style="text-align: center;" id="这是probe的问答箱">这是Probe的问答箱</h3>
+
+<p style="text-align: center;">您可以在下方评论区向 Probe 提问，Probe 会尽快回复！</p>
+
+<h3 style="text-align: center;" id="ゝ‿ミ">【⟢ゝ‿✦】ミ☆</h3>
+
+				</div>
+			</div>
+			
+				<div class="comments">
+  <div id="disqus_thread" class="article-comments"></div>
+  <script>
+    (function () {
+      var d = document, s = d.createElement('script');
+      
+      // Configure Disqus with proper language based on page language
+      window.disqus_config = function () {
+        this.language = "zh";
+      };
+      
+      s.src = '//probe-earth.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>请启用 JavaScript 以查看
+    <a href="https://disqus.com/?ref_noscript">由 Disqus 提供的评论。</a>
+  </noscript>
+</div> <!-- /.comments -->
+			
+		</article> <!-- /.page -->
+	</div>
 </div>
 
   <footer class="footer">
@@ -248,13 +292,13 @@
             <div class="col col-12">
                 <div class="footer-top">
                     <h2 class="logo-title">
-                        <a href="/en/" class="logo-text">Probe</a>
+                        <a href="/cn/" class="logo-text">Probe</a>
                     </h2>
                     <div class="top"><i class="ion ion-ios-arrow-up"></i></div>
                 </div>
                 <div class="footer-bottom">
                     <div class="copyright">
-                        <p>Built by Probe using <a href="https://github.com/artemsheludko/galada">GALADA</a>  ♥️</p>
+                        <p>由 Probe 使用 <a href="https://github.com/artemsheludko/galada">GALADA</a> 搭建 ♥️</p>
                     </div>
                     <div class="footer-social">
                         <ul class="list-reset">
@@ -285,7 +329,7 @@
   json: "/search.json",
   searchResultTemplate:
     '<li class="search-item"><a class="search-link" href="{url}">{title}</a></li>',
-  noResultsText: '<li class="search-no-item">No results found</li>'
+  noResultsText: '<li class="search-no-item">未找到结果</li>'
   });
 </script>
 <script src="/js/instafeed.min.js"></script>

@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Probe @ Earth</title>
+  <title>Ask Me</title>
   <meta name='description'
     content='Personal writing and thoughts'>
 
-  <link rel="canonical" href="https://probe.earth/">
+  <link rel="canonical" href="https://probe.earth/ask/">
   <link rel="alternate" type="application/rss+xml" title="Probe @ Earth"
     href="/feed.xml">
 
@@ -79,7 +79,7 @@
   <meta name="twitter:creator" content="@Probe">
   
 
-  <meta name="twitter:title" content="">
+  <meta name="twitter:title" content="Ask Me">
 
   
   <meta name="twitter:description" content="Personal writing and thoughts">
@@ -95,7 +95,7 @@
   <meta name="og:site_name" content="Probe @ Earth">
 
   
-  <meta name="og:title" content="Personal writing and thoughts">
+  <meta name="og:title" content="Ask Me">
   
 
   
@@ -159,6 +159,10 @@
               
               
               
+              <li class="menu-item">
+                <a href="/ask/" class="menu-link">Ask Me</a>
+              </li>
+              
               
               
               
@@ -195,7 +199,7 @@
           </nav>
           <div class="nav-buttons">
             <div class="language-toggle">
-              <a href="/en/" class="lang-btn " data-lang="en">EN</a>
+              <a href="/en/" class="lang-btn active" data-lang="en">EN</a>
               <span class="lang-separator">|</span>
               <a href="/cn/" class="lang-btn " data-lang="cn">中文</a>
             </div>
@@ -217,29 +221,69 @@
   </div>
 </header> <!-- /.header -->
 
-  <script>
-  // Redirect to appropriate language page
-  (function() {
-    // Check if user has previously selected a language
-    const userLang = localStorage.getItem('preferredLanguage');
-    
-    if (userLang === 'cn') {
-      window.location.href = '/cn/';
-    } else {
-      // Default to English
-      window.location.href = '/en/';
-    }
-  })();
-</script>
+  <div class="container">
+	<div class="row">
+		<div class="col col-12">
+		</div>
+		<article class="col col-12 col-t-10 push-t-1 page">
+			<div class="page-content">
+				<div class="page-head">
+					<h1 class="page-title">Ask Me</h1>
+					
+					
 
-<!-- Fallback content -->
-<div style="text-align: center; padding: 50px 20px;">
-  <h2>Redirecting...</h2>
-  <p>If you are not redirected automatically, please choose your language:</p>
-  <p>
-    <a href="/en/" style="margin: 0 10px; font-weight: bold;">English</a>
-    <a href="/cn/" style="margin: 0 10px; font-weight: bold;">中文</a>
-  </p>
+
+<div class="language-switcher">
+    
+        
+        <a href="/ask-cn/" class="cn-link">
+            
+            中文
+            
+        </a>
+        
+    
+        
+    
+</div>
+
+
+					
+				</div>
+
+				<div class="page-body">
+					<h3 style="text-align: center;" id="this-is-probes-public-question-box">This is Probe’s public question box</h3>
+
+<p style="text-align: center;">You can anonymously (or with your name) ask Probe any questions in the comment section below. Probe will respond as soon as possible!</p>
+
+<h3 style="text-align: center;" id="ゝ‿ミ">【⟢ゝ‿✦】ミ☆</h3>
+
+				</div>
+			</div>
+			
+				<div class="comments">
+  <div id="disqus_thread" class="article-comments"></div>
+  <script>
+    (function () {
+      var d = document, s = d.createElement('script');
+      
+      // Configure Disqus with proper language based on page language
+      window.disqus_config = function () {
+        this.language = "en";
+      };
+      
+      s.src = '//probe-earth.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+</div> <!-- /.comments -->
+			
+		</article> <!-- /.page -->
+	</div>
 </div>
 
   <footer class="footer">

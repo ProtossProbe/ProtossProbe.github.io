@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Probe @ Earth</title>
+  <title>Tag Cloud</title>
   <meta name='description'
     content='Personal writing and thoughts'>
 
-  <link rel="canonical" href="https://probe.earth/">
+  <link rel="canonical" href="https://probe.earth/tags/">
   <link rel="alternate" type="application/rss+xml" title="Probe @ Earth"
     href="/feed.xml">
 
@@ -79,15 +79,15 @@
   <meta name="twitter:creator" content="@Probe">
   
 
-  <meta name="twitter:title" content="">
+  <meta name="twitter:title" content="Tag Cloud">
 
   
   <meta name="twitter:description" content="Personal writing and thoughts">
   
 
   
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="img/probe-main.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://probe.earth/img/probe-main.jpg">
   
   <!-- end of Twitter cards -->
 
@@ -95,7 +95,7 @@
   <meta name="og:site_name" content="Probe @ Earth">
 
   
-  <meta name="og:title" content="Personal writing and thoughts">
+  <meta name="og:title" content="Tag Cloud">
   
 
   
@@ -103,7 +103,7 @@
   
 
   
-  <meta name="og:image" content="img/probe-main.jpg">
+  <meta name="og:image" content="https://probe.earth/img/probe-main.jpg">
   
 
   <meta name="theme-color" content="#FFE026">
@@ -217,29 +217,71 @@
   </div>
 </header> <!-- /.header -->
 
-  <script>
-  // Redirect to appropriate language page
-  (function() {
-    // Check if user has previously selected a language
-    const userLang = localStorage.getItem('preferredLanguage');
-    
-    if (userLang === 'cn') {
-      window.location.href = '/cn/';
-    } else {
-      // Default to English
-      window.location.href = '/en/';
-    }
-  })();
-</script>
+  <div class="container">
+	<div class="row">
+		<div class="col col-12">
+			<div class="page-image-box">
+				<div class="page-image" style="background-image: url('/img/probe-main.jpg');"></div>
+			</div>
+		</div>
+		<article class="col col-12 col-t-10 push-t-1 page">
+			<div class="page-content">
+				<div class="page-head">
+					<h1 class="page-title">Tag Cloud</h1>
+					
+				</div>
 
-<!-- Fallback content -->
-<div style="text-align: center; padding: 50px 20px;">
-  <h2>Redirecting...</h2>
-  <p>If you are not redirected automatically, please choose your language:</p>
-  <p>
-    <a href="/en/" style="margin: 0 10px; font-weight: bold;">English</a>
-    <a href="/cn/" style="margin: 0 10px; font-weight: bold;">中文</a>
-  </p>
+				<div class="page-body">
+					
+
+
+<div class="tags">
+  <ul class="tags-list">
+    
+    
+    <li class="tags-item"><a href="#test" class="tags-link">test
+        <span>1</span></a></li>
+    
+    
+    <li class="tags-item"><a href="#%E6%B5%8B%E8%AF%95" class="tags-link">测试
+        <span>1</span></a></li>
+    
+  </ul>
+
+  <hr>
+
+  
+  
+  <h2 class="tags-title" id="test">test</h2>
+  <div class="tags-group">
+    
+    <div class="tag-item">
+      <div class="tag-text">
+        <a class="tag-link" href="/test/">Novel</a> |
+        <small><span class="tag-date">30 Mar 2025</span></small>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  <h2 class="tags-title" id="%E6%B5%8B%E8%AF%95">测试</h2>
+  <div class="tags-group">
+    
+    <div class="tag-item">
+      <div class="tag-text">
+        <a class="tag-link" href="/test-cn/">小说</a> |
+        <small><span class="tag-date">30 Mar 2025</span></small>
+      </div>
+    </div>
+    
+  </div>
+  
+</div> <!-- /.tags -->
+				</div>
+			</div>
+		</article> <!-- /.page -->
+	</div>
 </div>
 
   <footer class="footer">
