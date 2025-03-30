@@ -7,10 +7,11 @@
   json: "{{site.baseurl}}/search.json",
   searchResultTemplate:
     '<li class="search-item"><a class="search-link" href="{url}">{title}</a></li>',
-  noResultsText: '<li class="search-no-item">未找到结果</li>'
+  noResultsText: '{% if page.lang == "cn" %}<li class="search-no-item">未找到结果</li>{% else %}<li class="search-no-item">No results found</li>{% endif %}'
   });
 </script>
 <script src="{{ site.baseurl }}/js/instafeed.min.js"></script>
 <script src="{{ site.baseurl }}/js/jquery.waitforimages.min.js"></script>
 <script src="{{ site.baseurl }}/js/jquery.fitvids.js"></script>
 <script src="{{ site.baseurl }}/js/common.js"></script>
+<script src="{{ site.baseurl }}/js/language-switcher.js"></script>

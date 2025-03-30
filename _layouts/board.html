@@ -9,6 +9,9 @@ layout: default
 			<div class="page-content">
 				<div class="page-head">
 					<h1 class="page-title">{{ page.title | escape }}</h1>
+					{% if page.lang_ref %}
+					{% include language-switcher.html %}
+					{% endif %}
 				</div>
 
 				<div class="page-body">

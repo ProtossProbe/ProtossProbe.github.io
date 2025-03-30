@@ -1,0 +1,37 @@
+/* Language Toggle */
+.language-toggle {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  
+  .lang-btn {
+    color: $text;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: all .25s;
+    
+    &:hover {
+      color: $primary-color;
+    }
+    
+    &.active {
+      color: $primary-color;
+      font-weight: 700;
+    }
+  }
+  
+  .lang-separator {
+    color: $border-color;
+    margin: 0 2px;
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .language-toggle {
+    margin-right: 10px;
+    font-size: 13px;
+  }
+}

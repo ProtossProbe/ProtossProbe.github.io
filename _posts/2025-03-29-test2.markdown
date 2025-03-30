@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "English Post Title"
+title: "English Post Title2"
 date: 2025-03-29 00:00:00 +0700
-description: "This is an English post"
+description: "This is an English post content. This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content."
 image: /img/chaos.jpg
 tags: [tag1, tag2]
 lang: en
-lang_ref: test-post-2025-03-29
+lang_ref: test2-post-2025-03-29
 ---
 
 This is an English post content. This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.

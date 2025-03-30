@@ -2,6 +2,8 @@
 layout: board
 title: Ask Me
 permalink: /ask/
+lang: en
+lang_ref: ask-page
 ---
 
 {:refdef: style="text-align: center;"}
@@ -9,17 +11,9 @@ permalink: /ask/
 {:refdef}
 
 {:refdef: style="text-align: center;"}
-### [ask.probe.earth](http://ask.probe.earth)
-{:refdef}
-
-{:refdef: style="text-align: center;"}
 You can anonymously (or with your name) ask Probe any questions in the comment section below. Probe will respond as soon as possible!
 {:refdef}
 
 {:refdef: style="text-align: center;"}
-### (･ω<)☆
+### 【⟢ゝ‿✦】ミ☆
 {:refdef}
-
-{:refdef: style="text-align: center;"}
-![Looking at you~]({{site.baseurl}}/img/board/probe-emoji-1.jpg)
-{: refdef}

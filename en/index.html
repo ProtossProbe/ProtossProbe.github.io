@@ -1,0 +1,73 @@
+---
+layout: default
+lang: en
+---
+<div class="container">
+  <div class="row">
+  {% assign posts = site.posts | where: "lang", "en" %}
+  {% if posts.size > 0 %}
+    {% assign first_post = posts.first %}
+    <div class="col col-12">
+      <article class="article-first">
+        <div class="article-image-first" style="background-image: url({{site.baseurl}}{{first_post.image}})">
+          <div class="article-content-first">
+            <div class="article-tag">
+            {% if first_post.tags.size >= 1 %}
+              {% for tag in first_post.tags %}
+              <a href="{{ site.baseurl }}/tag/{{ tag }}" class="tag">{{ tag }}</a>
+              {% endfor %}
+            {% endif %}
+            </div>
+            <h2 class="article-title"><a href="{{ first_post.url | prepend: site.baseurl }}">{{first_post.title}}</a></h2>
+            <p class="article-excerpt">{% if first_post.description %}{{ first_post.description | strip_html | truncate: 163 }}{% else %}{{ first_post.content | strip_html | truncate: 163 }}{% endif %}</p>
+            <a href="{{ first_post.url | prepend: site.baseurl }}" class="button read-more">Read More</a>
+          </div>
+        </div>
+      </article> <!-- /.article-first -->
+    </div>
+  {% endif %}
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col col-12 col-t-8">
+      <div class="row">
+      {% for post in posts offset: 1 %}
+        <article class="article col col-6 col-t-6">
+          <div class="article-box">
+            <div class="article-head">
+              <a href="{{ post.url | prepend: site.baseurl }}" class="article-image" style="background-image: url({{site.baseurl}}{{post.image}})">
+                <div class="image-overlay">
+                  <span class="image-overlay-text">{{post.title | slice: 0}}</span>
+                </div>
+              </a>
+            </div>
+            <div class="article-content">
+              <div class="article-info">
+                <div class="article-date">
+                  <span class="date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
+                </div>
+                <div class="article-tag">
+                {% if post.tags.size >= 1 %}
+                  {% for tag in post.tags %}
+                  <a href="{{ site.baseurl }}/tag/{{ tag }}" class="tag">{{ tag }}</a>
+                  {% endfor %}
+                {% endif %}
+                </div>
+              </div>
+              <h2 class="article-title">
+                <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+              </h2>
+              <p class="article-excerpt">{{ post.content | strip_html | truncate: 130 }}</p>
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+      </div>
+    </div>
+    <div class="col col-12 col-t-4">
+      {% include sidebar.html %}
+    </div>
+  </div>
+</div>

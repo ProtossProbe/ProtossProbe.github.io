@@ -4,13 +4,13 @@
             <div class="col col-12">
                 <div class="footer-top">
                     <h2 class="logo-title">
-                        <a href="{{site.baseurl}}/" class="logo-text">Probe</a>
+                        <a href="{{site.baseurl}}/{% if page.lang == 'cn' %}cn{% else %}en{% endif %}/" class="logo-text">Probe</a>
                     </h2>
                     <div class="top"><i class="ion ion-ios-arrow-up"></i></div>
                 </div>
                 <div class="footer-bottom">
                     <div class="copyright">
-                        <p>由 Probe 使用 <a href="https://github.com/artemsheludko/galada">GALADA</a> 搭建 ♥️</p>
+                        <p>{% if page.lang == 'cn' %}由 Probe 使用{% else %}Built by Probe using{% endif %} <a href="https://github.com/artemsheludko/galada">GALADA</a> {% if page.lang == 'cn' %}搭建{% endif %} ♥️</p>
                     </div>
                     <div class="footer-social">
                         <ul class="list-reset">
@@ -24,13 +24,7 @@
                             <li><a href="{{ site.pinterest }}">Pinterest</a></li>
                             {% else %} {% endif %} {% if site.youtube %}
                             <li><a href="{{ site.youtube }}">Youtube</a></li>
-                            {% else %} {% endif %} {% if site.spotify %}
-                            <li><a href="{{ site.spotify }}">Spotify</a></li>
-                            {% else %} {% endif %} {% if site.contact %}
-                            <li><a href="{{ site.contact }}">Contact</a></li>
                             {% else %} {% endif %}
-                            <li><a href="{{ site.baseurl }}/feed.xml">RSS</a></li>
-
                         </ul>
                     </div>
                 </div>
