@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "中文文章标题"
-date: 2025-03-29 00:00:00 +0700
-description: "这是一篇中文文章"
-image: /img/chaos.jpg
-tags: [标签1, 标签2]
+title: "小说"
+date: 2025-03-30 00:00:00 +0700
+description: "Probe 的小说"
+image: /img/test.jpg
+tags: ["测试"]
 lang: cn
-lang_ref: test-post-2025-03-29
+lang_ref: test-post-2025-03-30
 ---
 
 这是中文文章的内容。这是中文文章的内容。这是中文文章的内容。这是中文文章的内容。这是中文文章的内容。这是中文文章的内容。这是中文文章的内容。这是中文文章的内容。这是中文文章的内容。这是中文文章的内容。这是中文文章的内容。这是中文文章的内容。这是中文文章的内容。

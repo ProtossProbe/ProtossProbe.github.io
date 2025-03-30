@@ -20,8 +20,8 @@ lang: cn
             {% endif %}
             </div>
             <h2 class="article-title"><a href="{{ first_post.url | prepend: site.baseurl }}">{{first_post.title}}</a></h2>
-            <p class="article-excerpt">{{ first_post.content | strip_html | truncate: 163 }}</p>
-            <a href="{{ first_post.url | prepend: site.baseurl }}" class="button read-more">阅读更多</a>
+            <p class="article-excerpt">{% if first_post.description %}{{ first_post.description | strip_html | truncate: 163 }}{% else %}{{ first_post.content | strip_html | truncate: 163 }}{% endif %}</p>
+            <a href="{{ first_post.url | prepend: site.baseurl }}" class="button read-more">阅读</a>
           </div>
         </div>
       </article> <!-- /.article-first -->

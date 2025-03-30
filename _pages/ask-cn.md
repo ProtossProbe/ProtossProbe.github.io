@@ -11,7 +11,7 @@ lang_ref: ask-page
 {:refdef}
 
 {:refdef: style="text-align: center;"}
-您可以在下方评论区匿名（或实名）向Probe提问，Probe会尽快回复！
+您可以在下方评论区向 Probe 提问，Probe 会尽快回复！
 {:refdef}
 
 {:refdef: style="text-align: center;"}

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "English Post Title"
-date: 2025-03-29 00:00:00 +0700
+title: "Novel"
+date: 2025-03-30 00:00:00 +0700
 description: "This is an English post"
-image: /img/chaos.jpg
-tags: [tag1, tag2]
+image: /img/test.jpg
+tags: ["test"]
 lang: en
-lang_ref: test-post-2025-03-29
+lang_ref: test-post-2025-03-30
 ---
 
 This is an English post content. This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.This is an English post content.
